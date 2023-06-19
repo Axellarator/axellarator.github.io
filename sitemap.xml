@@ -2,102 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://axellarator.github.io/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-aerzte/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-aponah/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-apotheken/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-ausbildung-aerzte/</loc>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-ausbildung-mfa/</loc>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-ausbildung-studies/</loc>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-doc2lib/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-dsgvo/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-haftung/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-impressum/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-karriere/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-kodex/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-lizenz/</loc>
-         <lastmod>2023-06-15</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://axellarator.github.io/start-neues/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-notarzt/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-praxis-neues/</loc>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-praxis/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-praxis2/</loc>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-praxis3/</loc>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-standort/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-team/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-test/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://axellarator.github.io/start-umgebung-neues/</loc>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start-wunsch/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/start/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://axellarator.github.io/test/</loc>
-         <lastmod>2023-06-15</lastmod>
+         <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
