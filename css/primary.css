@@ -1,0 +1,236 @@
+
+/**
+ * The contents of this file is included on the generated
+ * HTML file for quicker page load
+ */
+
+/* Normalize */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+/* Layout */
+body > * {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+main {
+  text-align: justify;
+  font-size: .9em;
+  font-weight: 100;
+  margin-bottom: .1em;
+}
+
+main > header {
+  margin-bottom: 2em;
+}
+
+/* Typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Segoe UI, Roboto, Noto Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  color: #4a4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: blue;
+  line-height: .9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 500;
+  margin-bottom: .1em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: .1em;
+}
+
+h3 {
+  margin-bottom: .2em;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 150;
+  margin-bottom: .1em;
+}
+
+h6 {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: .1em;
+}
+
+h1 + p {
+  font-size: 1.6em;
+  color: blue;
+}
+
+/* Master navigation */
+.mastnav {
+  justify-content: space-between;
+  margin-bottom: 2.5em;
+  align-items: center;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+.mastnav a {
+  display: inline-block;
+  transition: transform .1s;
+}
+
+.mastnav a:hover {
+  transform: scale(1.05);
+}
+
+.mastnav a:active {
+  transform: scale(.99);
+}
+
+.icon {
+  width: 1.4em;
+  margin-left: .5em;
+}
+
+.logo {
+  max-height: 2em;
+}
+
+.headlogo {
+  max-height: 12em;
+}
+
+/* Project list */
+.grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 50% 48%;
+  font-size: 1.08em;
+  gap: 1em;
+  padding: 0;
+}
+
+.grid li {
+  box-shadow: 0 1px 2px #0001, .1em .4em 1em rgba(0,0,0,0.08);
+  border-radius: 2px;
+  padding: 1.2em 1.6em;
+  text-align: left;
+}
+
+/* header */
+#header {
+    background-color: #DDDDDD;
+    width: 100%; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+    font-weight: 200;
+    color: blue;
+		padding: 1em;
+		font-weight: 400;
+		margin-bottom: .1em;
+}
+
+/* Footer */
+#footer  {
+    background-color: #DDDDDD;
+    width: 100%; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+ 		font-size: 1em;
+    font-weight: 400;
+    color: blue;
+		padding: 1em;
+		font-weight: 400;
+		margin-bottom: .1em;
+}
+
+/* Project list */
+.grid2 {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  font-size: 1.08em;
+  padding: 0;
+}
+
+.grid2 li {
+  box-shadow: 0 1px 2px #0001, .1em .4em 1em rgba(0,0,0,0.08);
+  border-radius: 2px;
+  padding: 1.2em 1.6em;
+  text-align: justify;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  z-index: 99;
+  font-size: 1.2em;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: .75em;
+  border-radius: 1em;
+}
+
+#myBtn:hover {
+  background-color: #61CDB3;
+}
+/* Mobile layout */
+@media (max-width: 900px) {
+  main > header {
+    font-size: 80%;
+  }
+  h1 {
+    font-size: 4.3em;
+  }
+
+  h1 + p {
+    max-width: 14em;
+    margin: 0 auto 2em;
+  }
+
+  .grid {
+    grid-template-columns: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    font-size: .95em;
+  }
+   .grid2 {
+    grid-template-columns: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    font-size: .95em;
+  }
+}

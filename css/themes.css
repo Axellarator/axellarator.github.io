@@ -1,0 +1,86 @@
+
+/* Dark theme */
+.dark {
+  background-color: black;
+}
+
+/* Font Color */
+.dark {
+  color: white;
+}
+
+/* Icon */
+.dark header .icon {
+  filter: invert(90%);
+}
+
+/* color h fonts */
+.dark h1, .dark h2 .dark h3 {
+  color: white;
+}
+
+.dark li {
+  background-color: #21262d;
+}
+
+.dark li:nth-child(odd) {
+  background-color: red;
+}
+
+/* Vibrant theme */
+.vibrant {
+  background-color: #ff8c8;
+}
+
+/* Font Color */
+.vibrant {
+  color: #aaa1;
+}
+
+/* Icon */
+.vibrant header .icon {
+  filter: invert(90%);
+}
+
+/* color h fonts */
+.vibrant h1, .vibrant h2 .vibrant h3 {
+  background-image: linear-gradient(-45deg, #aaa, white);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vibrant li {
+  background-color: #2aa5e3;
+}
+
+.vibrant li:nth-child(odd) {
+  background-color: #2aa5e3;
+}
+
+/* Dark + Vibrant + bdbstyle theme */
+
+.bdbstyle {
+  background-color: #2aa5e3;
+}
+
+/* Font Color */
+.bdbstyle {
+  color: white;
+}
+
+.bdbstyle h1 {
+  background-image: linear-gradient(-60deg, blue, white);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* List left and right */
+.bdbstyle li {
+  background-color: #2aa5e;
+}
+
+.bdbstyle li:nth-child(odd) {
+  background-color: #2aa5e;
+}
