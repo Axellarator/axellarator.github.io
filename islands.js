@@ -31,5 +31,15 @@ export const lib = [
     (_,e) => { _.change(_.el, e) },
     _ => [_.el.name]
   ]
+},{
+  name: 'media-object',
+  tagName: 'div',
+  tmpl: '<div :class="0"> <img :src="1"> <aside> <h3>:2:</h3> <p>:3:</p> <slot></slot> </aside></div>',
+  fns: [
+    _ => [_.class],
+    _ => [_.img],
+    _ => [_.title],
+    _ => [_.desc]
+  ]
 }]
 export default lib[0]

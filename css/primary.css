@@ -22,6 +22,9 @@ a {
   cursor: pointer;
 }
 
+div .grid2 {
+    cursor:context-menu;}
+    
 /* Layout */
 body > * {
   max-width: 920px;
@@ -50,7 +53,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: blue;
-  line-height: .9;
+  line-height: .9em;
 }
 
 h1 {
@@ -178,9 +181,26 @@ h1 + p {
   grid-template-columns: 100%;
   font-size: 1.08em;
   padding: 0;
+    cursor: auto;
 }
 
 .grid2 li {
+  box-shadow: 0 1px 2px #0001, .1em .4em 1em rgba(0,0,0,0.08);
+  border-radius: 2px;
+  padding: 1.2em 1.6em;
+  text-align: justify;
+}
+
+.grid3 {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  font-size: 1.08em;
+  padding: 0;
+    cursor: context-menu;
+}
+
+.grid3 li {
   box-shadow: 0 1px 2px #0001, .1em .4em 1em rgba(0,0,0,0.08);
   border-radius: 2px;
   padding: 1.2em 1.6em;
@@ -199,7 +219,7 @@ h1 + p {
   outline: none;
   background-color: #555;
   color: white;
-  cursor: pointer;
+  cursor: wait;
   padding: .75em;
   border-radius: 1em;
 }
@@ -207,6 +227,54 @@ h1 + p {
 #myBtn:hover {
   background-color: #61CDB3;
 }
+
+div.blueTable {
+  border: 1px solid #FFF;
+  background-color: #FFFAAA;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.blueTable .divTableCell, .divTable.blueTable .divTableHead {
+  border: 2px solid #AAAAAA;
+  padding: .50em .75em;
+  width: 50%;
+}
+.divTable.blueTable .divTableBody .divTableCell {
+  font-size: 1em;
+}
+.divTable.blueTable .divTableRow:nth-child(even) {
+  background: #FFF;
+}
+.blueTable .tableFootStyle {
+  font-size: 1em;
+}
+.blueTable .tableFootStyle .links {
+	 text-align: right;
+}
+.blueTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: .10em .75em;
+  border-radius: 1em;
+}
+.blueTable.outerTableFooter {
+  border-top: none;
+}
+.blueTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+
 /* Mobile layout */
 @media (max-width: 900px) {
   main > header {
